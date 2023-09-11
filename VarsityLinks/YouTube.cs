@@ -12,7 +12,7 @@ namespace VarsityLinks
 {
     internal class YouTube
     {
-        private string ApiKey = "AIzaSyDwBlu5-FtoWzCC9ycT3shLwAPoa0x8xU8";
+        private string ApiKey = "YOU_API_HERE";
         private string BaseUrl = "https://www.googleapis.com/youtube/v3/videos";
 
         private async Task<string> GetVideoInfo(string videoId)
